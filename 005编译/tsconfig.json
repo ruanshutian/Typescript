@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    //模块化的规范
+//    "module": "commonjs",
+    //指定编译的版本
+    "target": "es5",
+    "sourceMap": true,
+    // lib用来指定的模块化的规范
+//    "lib": [],
+    //输出目录
+//    "outDir": ""
+    // 将代码合并为一个文件
+    "outFile": "./testHB.js",
+    //允许编译js
+//    "allowJs": false
+    //检查js 代码是否符合语法规范
+//    "checkJs": false
+    //是否移除注释
+//    "removeComments": true
+    //不生成编译后的文件
+//    "noEmit": true
+    //有错误的时候不生产编译文件
+//    "noEmitOnError": true
+
+    //严格模式
+//    "alwaysStrict": true
+    //不允许隐式any的出现
+//    "noImplicitAny": true
+    //不允许不明确的this出现
+//    "noImplicitThis": true
+//    "strictNullChecks": false
+//    "strict":true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./**/*"
+  ]
+}
