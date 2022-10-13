@@ -34,10 +34,10 @@ any和unknown都是未知变量，但是
 ### [void](./003types.ts)
 ### [never](./003types.ts)
 
-### [object]
-### [array]
-### [tuple]
-### [enum]
+### [object](./004types.ts)
+### [array](./004types.ts)
+### [tuple](./004types.ts)
+### [enum](./004types.ts)
 
 
 
