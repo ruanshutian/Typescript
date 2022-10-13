@@ -10,7 +10,7 @@
     //输出目录
 //    "outDir": ""
     // 将代码合并为一个文件
-    "outFile": "./testHB.js",
+    "outFile": "./testHB.js"
     //允许编译js
 //    "allowJs": false
     //检查js 代码是否符合语法规范
