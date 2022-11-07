@@ -3,24 +3,35 @@
  */
 
 //简单的例子
-// function createArray(length:number, value:any):Array<any>{
-//     let result = [];
-//     for(let i =0 ;i<length ;i++){
-//         result[i] =value;
-//     }
-//     return result;
-// }
-// createArray(3,'x');
-function createArray<T>(length:number, value:T):Array<T>{
+function createArray1(length:number, value:any):Array<any>{
+    let result = [];
+    for(let i =0 ;i<length ;i++){
+        result[i] =value;
+    }
+    return result;
+}
+createArray1(3,'x');
+
+function createArray2<T>(length:number, value:T):Array<T>{
     let result:T[] = [];
     for(let i =0 ;i<length ;i++){
         result[i] =value;
     }
     return result;
 }
-createArray<string>(3,'x');
+createArray2<string>(3,'x');
+console.log(createArray2<string>(3,'x'));
 
-
-
+/**
+ * 多个类型参数
+ */
+function swap<T,U>(tuple:[T,U]):[U,T]{
+    // console.log(tuple[1]);
+    // console.log(tuple[0]);
+    return [tuple[1],tuple[0]];
+}
+let test :[number,string] = [7,"seven"];
+console.log(swap(test));
+// console.log([7,"seven"])
 
 
