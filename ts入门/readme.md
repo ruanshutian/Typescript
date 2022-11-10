@@ -7,7 +7,7 @@
 ## [类型推论](https://ts.xcatliu.com/basics/type-inference.html)
 ## [对象的类型——接口](https://ts.xcatliu.com/basics/type-of-object-interfaces.html)
 ## [数组的类型](https://ts.xcatliu.com/basics/type-of-array.html)
-## []()
+## [函数的类型](https://ts.xcatliu.com/basics/type-of-function.html)
 ## []()
 ## []()
 ## []()
